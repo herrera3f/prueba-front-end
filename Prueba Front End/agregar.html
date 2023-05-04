@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar</title>
+    <style>
+        body{
+            background-color: #65dbf0;
+        }
+        h1{
+            text-align: center;
+        }
+        #listaProductos{
+            list-style: none;
+        }
+        #listaProductos li{
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1>Agregar un producto</h1>
+    <label for="nombreProducto">Nombre del producto:</label>
+    <input type="text" id="nombreProducto"><br><br>
+    <label for="descripcionProducto">Descripción del producto:</label>
+    <textarea id="descripcionProducto"></textarea><br><br>
+    <label for="valorProducto">Valor del producto:</label>
+    <input type="number" id="valorProducto"><br><br>
+    <button onclick="agregarProducto()">Agregar producto</button>
+    
+    <hr>
+    
+    <h1>Productos agregados</h1>
+    <ul id="listaProductos">
+    </ul>
+    
+    <script src="./js/java.js"></script>
+
+</body>
+</html>

@@ -86,3 +86,10 @@ button[type="submit"] {
 	font-size: 20px;
 	cursor: pointer;
 }
+
+#boton{
+    float: left;
+
+    padding: 10px 20px;
+
+}
