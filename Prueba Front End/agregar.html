@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar</title>
+    <style>
+        body{
+            background-color: #65dbf0;
+        }
+        h1{
+            text-align: center;
+        }
+        #listaProductos{
+            list-style: none;
+        }
+        #listaProductos li{
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <form>
+        <div class="container">
+            <h2>Agregar Producto</h2>
+            <form>
+                <div>
+                    <label for="nombre">id:</label>
+                    <input type="text" id="id" placeholder="id ">
+                </div>
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre">
+              </div>
+              <div class="form-group">
+                <label for="descripcion">cantidad:</label>
+                <input type="text" class="form-control" id="cantidad">
+              </div>
+              <div class="form-group">
+                <label for="precio">Precio:</label>
+                <input type="number" class="form-control" id="precio">
+              </div>
+              <div class="form-group">
+                <label for="imagen">Imagen:</label>
+                <input type="text" class="form-control" id="imagen">
+              </div>
+              <button type="submit" class="btn btn-primary">Agregar</button>
+            </form>
+          </div>
+    
+    <script src="./js/java.js"></script>
+
+</body>
+</html>
